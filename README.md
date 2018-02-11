@@ -2,5 +2,7 @@
 Personal website
 
 * Google Domains
-* Hosted on s3
-* SSL implemented with CloudFront
+* Hosted on AWS s3
+* SSL certificates generated with Amazon Certificate Manager (AWS ACM)
+* SSL implemented with AWS CloudFront distribution 
+* DNS congfiured with AWS Route53
