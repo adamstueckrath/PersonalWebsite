@@ -7,3 +7,8 @@ Personal website
 * SSL implemented with AWS CloudFront distribution 
 * DNS congfiured with AWS Route53
 * Email domain and server configured with Simple Email Services
+
+
+
+
+![picture](AWS_Architecture.png)
