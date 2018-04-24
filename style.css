@@ -69,3 +69,18 @@ section.title {
 
 .title .intro #icons li a:hover {
 }
+
+.container {
+    position: relative;
+}
+
+.topleft {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+}
+
+img { 
+    width: 25%;
+    height: 25%;
+}
