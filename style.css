@@ -1,86 +1,86 @@
-
-html, body {
-	margin: 0;
-	padding: 0;
+* {
+  color: #636366;
 }
 
 body {
-	background-color: #F3F3F3;
+  background: #C4D2E3;
 }
 
-section.title {
-  display: block;
-  height: 100vh;
+a {
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.3s ease;
 }
 
-.title .intro {
-	position: relative;
-  	top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    padding: 1em;
-    text-align: center;
-    margin: 0;	
-}
-
-.title .intro h1 {
-    font-family: 'Open Sans', sans-serif;
-	color: #636363;
-	font-size: 2.5em;
-	font-weight: 600;
-	margin: 0;
-}
-
-.title .intro h2 {
-	font-family: 'Open Sans', sans-serif;
-	color: #C8C8C8;
-	font-size: 1.53em;
-	font-weight: 300;
-	text-align: center;
-	text-transform: uppercase;
-	margin: -7px 0 0 0;
-}
-
-.title .intro #icons {
-	list-style: none outside none;
-	margin: 5px 0 0 0;
-	padding: 0;
-	text-align: center;
-}
-
-.title .intro #icons li {
-	margin: 0;
-	display: inline;
-}
-
-.title .intro #icons li a {
-	display: inline-block;
-	height: 50px;
-	width: 50px;
-	border-radius: 25px;
-}
-
-.title .intro #icons li a img {
-	width: 50px;
-	border-radius: 25px;
-	margin-top: 12.5px;
-}
-
-.title .intro #icons li a:hover {
+a:hover {
+  text-decoration: line-through;
 }
 
 .container {
-    position: relative;
+  padding-top: 100px;
 }
 
-.topleft {
-    position: absolute;
-    top: 16px;
-    left: 16px;
+.body-content {
+  background: #fff;
+  padding: 100px 0 120px 0;
+  position: relative;
+  z-index: 0 !important;
 }
 
-img { 
-    width: 25%;
-    height: 25%;
+.body-content > .container {
+  position: relative;
+  top: 100px;
+  padding-bottom: 100px;
+}
+
+.jumbotron {
+  background: #647B96;
+  background-image: linear-gradient(#C4D2E3, #647B96);
+  height: 760px;
+  width: 100%;
+  z-index: 100 !important;
+}
+
+.jumbotron h1,
+.jumbotron h2 {
+  color: #fff;
+}
+
+.content {
+  color: #75C050;
+}
+
+footer {
+  background: #647B96;
+  background-image: #647B96;
+  padding-bottom: 80px;
+}
+
+footer p {
+  color: #fff;
+}
+
+/* IMAGES */
+.img {
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.img-corgi {
+  position: relative;
+  background-image: url('corgi.jpg');
+  height: auto;
+  padding-top: 70%;
+  margin-top: 80px;
+  z-index: 200 !important;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* === MEDIA QUERIES === */
+@media only screen and (min-width: 720px) {
+  .jumbotron {
+    height: 600px;
+  }
 }
