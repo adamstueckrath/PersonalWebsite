@@ -1,0 +1,31 @@
+a:hover {
+  text-decoration: line-through;
+}
+
+a {
+  text-decoration: none;
+  color: #111;
+  transition: all 0.3s ease;
+}
+
+.img {
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.img-corgi {
+  position: relative;
+  background-image: url('corgi.jpg');
+  height: 0;
+  padding-top: 71.8%;
+  margin-top: 80px;
+  z-index: 200 !important;
+}
+
+.helvetica-custom {
+    font-famlily: Helvetica, Arial, sans-serif;
+}
+
+.of-contain {
+    object-fit: contain;
+}
