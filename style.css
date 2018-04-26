@@ -1,8 +1,11 @@
 /*! TACHYONS v4.9.0 | http://tachyons.io */
-/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */html {
+/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
+
+html {
     line-height: 1.15;
     -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%}
+    -webkit-text-size-adjust: 100%
+}
 body {
     margin: 0;
 }
@@ -11,7 +14,7 @@ article, aside, footer, header, nav, section {
 }
 h1 {
     font-size: 2em;
-    margin: .67em 0;
+    margin: .30em 0;
 }
 figcaption, figure, main {
     display: block;
@@ -1059,6 +1062,7 @@ img {
 }
 .list {
     list-style-type: none;
+
 }
 .mw-100 {
     max-width: 100%}
@@ -3732,7 +3736,7 @@ img {
     margin: 4rem;
 }
 .ma6-ns {
-    margin: 8rem;
+    margin: 6rem;
 }
 .ma7-ns {
     margin: 16rem;
@@ -4041,6 +4045,11 @@ img {
 .f-5-ns, .f-subheadline-ns {
     font-size: 5rem;
 }
+
+.f-4-ns {
+    font-size: 4.25rem;
+}
+
 .f1-ns {
     font-size: 3rem;
 }
