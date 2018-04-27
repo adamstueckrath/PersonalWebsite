@@ -8,7 +8,11 @@ Personal website
 * DNS congfiured with AWS Route53
 * Email domain and server configured with Simple Email Services
 
-
-
-
 ![picture](AWS_Architecture.png)
+
+
+Next Steps: 
+* Add personal statement and location information 
+* Work on caching (image performance)
+* Create Projects page
+* Google analytics
