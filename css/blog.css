@@ -1,0 +1,16 @@
+/* github.com/plasticneko */
+/* bulma css framework by jeremy thomas (github.com/jgthms | bulma.io) */
+
+/* basic formatting changes */
+
+.main-content {
+    padding-top: 2.5rem;
+}
+
+.content p {
+    font-size: 1.1em;
+}
+
+.medium-widget-article__row{
+    padding-bottom: 50px;
+}
