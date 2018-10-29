@@ -1,98 +1,122 @@
-
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300);
-body{
+
+#left {
+ padding-left: 3%;
+}
+
+#right{
+position: absolute;
+float: right;
+background-size: contain;
+background-repeat: no-repeat;
+background-image: url('../imgs/corgi.jpg');
+}
+
+@media (min-width: 769px) {
+#right {
+  margin-top: 20px;
+  right: 75px;
+  top: 175px;
+  height: 55%;
+  width: 50%;
+  }
+}
+.img-corgi {
+background-size: contain;
+background-repeat: no-repeat;
+background-image: url('../imgs/corgi.jpg');
+}
+
+body {
 background:#134;
 margin:0 auto;
 box-shadow:none;
 }
 
-h2{
-color:black;
-font-size:24px;
-margin-top:720px;
-margin-left:20px;
-font-family:'Josefin Sans', sans-serif;  
-}
-
-h1{
-Margin-top:70px;;
+h1 {
+margin-top:20px;
+margin-bottom:-15px;
 font-family:'Josefin Sans', sans-serif;    
 color:white;
 font-size:52px;
-letter-spacing:9px;
+letter-spacing:5px;
 }
 
-#wrapper{
+h2 {
+font-family:'Josefin Sans', sans-serif;    
+color:white;
+font-size:24px;
+margin-bottom: 2px;
+}
+
+#wrapper {
 width:100%;
-Height:20px;
+height:20px;
 }
 
-#snow{
+#snow {
 background:white;
 width:100%;
-min-height:450px;
+min-height:250px;
 margin-top:450px;
 display:inline-block;
 }
 
-.gran{
+.gran {
 height:400px;
 width:200px;
 margin-top:-270px;
 }
 
-.leaves{
-	
-  margin-top:;
-	width: 0;
-	height: 0;
-	border-left: 85px solid transparent;
-	border-right: 85px solid transparent;
-	border-bottom: 300px solid #228b57;
-  z-index:50;
-   position:relative; 
+.leaves {
+width: 0;
+height: 0;
+border-left: 85px solid transparent;
+border-right: 85px solid transparent;
+border-bottom: 300px solid #228b57;
+z-index:50;
+position:relative; 
 }
 
-.left{
-
-	width: 0;
-	height: 0;
-	border-left: 85px solid transparent;
-	border-bottom: 300px solid #1e7b4d;
-  display:inline-block;
-  margin-left:-85px;
-  z-index:-1231;
-  position:relative;
+.left { 
+width: 0;
+height: 0;
+border-left: 85px solid transparent;
+border-bottom: 300px solid #1e7b4d;
+display:inline-block;
+margin-left:-85px;
+z-index:-1231;
+position:relative;
   
 }
-.top{
-  width: 0;
-	height: 0;
-		border-left: 28px solid transparent;
-	border-right: 28px solid transparent;
-	border-bottom: 100px solid white;
-  display:inline-block;
-  margin-left:-85px;
-  z-index:100;
-    position:absolute;
-  margin-top:-0px;
-  margin-left:-28px;
+.top {
+width: 0;
+height: 0;
+border-left: 28px solid transparent;
+border-right: 28px solid transparent;
+border-bottom: 100px solid white;
+display:inline-block;
+margin-left:-85px;
+z-index:100;
+position:absolute;
+margin-top:-0px;
+margin-left:-28px;
 }
 
-.foot{
+.foot {
 background:#38230e;
 width:30px;
 height:60px;
-margin-top:-5px;
+margin-top:-4px;
 margin-right:20px;
 display:inline-block;
 margin-left:-14px;
 }
 
-#subfoot{
+#subfoot {
 background:green;
 width:30px;
 height:60px;
 display:inline-block;
-
 }
+

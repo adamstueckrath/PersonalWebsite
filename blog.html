@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blog</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/bulmajournal.min.css">
+    <link rel="stylesheet" href="./css/blog.css">
+</head>
+<body>
+	<nav class="navbar" role="navigation" aria-label="main navigation">
+		<div id="navbarBasic" class="navbar-menu">
+		    <div class="navbar-start">
+		    	<a class="navbar-item" href="index.html">Home</a>
+		      	<a class="navbar-item is-active" href="blog.html">Blog</a>
+		      	<a class="navbar-item" href="resume.html">Resume</a>
+		      	<a class="navbar-item" href="contact.html">Contact</a>
+		    </div>
+	    </div>
+		<div class="navbar-brand">
+	   		<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasic">
+		    	<span aria-hidden="true"></span>
+		      	<span aria-hidden="true"></span>
+		      	<span aria-hidden="true"></span>
+	    	</a>
+	  	</div>
+	</nav>
+	<!-- Blog-->
+	<div class="hero is-white">
+		<div class="container">
+			<form action="https://medium.com/@adamstueckrath" method="GET">
+				<div class="control">
+					<button class="button float-right" style="color: #EB6864; border-width: 2px; border-color: #3e3e3e; font-color: #EB6864; float: right !important; ">View All</button>
+				</div>
+			</form>
+		</div>
+		<section class="articles">
+			<section class="section blog" id="blog">
+			    <div class="container">
+			      	<div class="section-content" id="blogContent">
+			        	<div class="column" id="jsonContent"></div>
+			      	</div>
+			    </div>
+			</section>
+		</section>	
+	</div>
+</body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  	<script type="text/javascript" src="./js/blog.js"></script>
+  	<script type="text/javascript" src="./js/nav.js"></script>
+</html>
