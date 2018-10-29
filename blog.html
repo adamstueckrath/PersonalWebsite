@@ -27,22 +27,30 @@
 	</nav>
 	<!-- Blog-->
 	<div class="hero is-white">
-		<div class="container">
-			<form action="https://medium.com/@adamstueckrath" method="GET">
-				<div class="control">
-					<button class="button float-right" style="color: #EB6864; border-width: 2px; border-color: #3e3e3e; font-color: #EB6864; float: right !important; ">View All</button>
+		<div class="hero-body">
+			<div class="container">
+				<section class="articles">
+						<div class="heading">
+				    		<h1 class="title is-3">My blog</h1>
+				   			<hr/>
+						</div>
+					<section class="section blog" id="blog">
+					    <div class="container">
+					      	<div class="section-content" id="blogContent">
+					        	<div class="column" id="jsonContent"></div>
+					      	</div>
+					    </div>
+					</section>
+				</section>	
+				<div class="container">
+					<form action="https://medium.com/@adamstueckrath" method="GET">
+						<div class="control">
+							<button class="button float-right" style="color: #EB6864; border-width: 2px; border-color: #3e3e3e; font-color: #EB6864; float: left !important; margin-bottom: 10%;">View All</button>
+						</div>
+					</form>
 				</div>
-			</form>
+			</div>
 		</div>
-		<section class="articles">
-			<section class="section blog" id="blog">
-			    <div class="container">
-			      	<div class="section-content" id="blogContent">
-			        	<div class="column" id="jsonContent"></div>
-			      	</div>
-			    </div>
-			</section>
-		</section>	
 	</div>
 </body>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
