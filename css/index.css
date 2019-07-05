@@ -1,0 +1,28 @@
+ /*Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+#corgi {
+	margin-left: auto;
+	margin-right: auto;
+	height: 40%;
+	width: 60%;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+#corgi {
+	margin-left: auto;
+	margin-right: auto;
+	height: 40%;
+	width: 60%;
+	}
+}
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+#corgi {
+	margin-left: auto;
+	margin-right: auto;
+	height: 40%;
+	width: 60%;
+	}
+}
