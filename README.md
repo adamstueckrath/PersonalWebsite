@@ -13,4 +13,4 @@ My personal space on the web.
 * DNS configured with AWS Route53
 * Email domain and server configured with Simple Email Services
 
-![picture](./imgs/AWS_Architecture.png)
+![picture](./imgs/aws_architecture.png)
